@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy>=1.24,<3.0
+pandas>=2.0,<3.0
+scipy>=1.10
+
+# Layer 1 base learners
+xgboost>=1.7.6          # paper reports 1.7.6
+tensorflow>=2.13,<3.0   # paper reports 2.13.0 (BiLSTM + 1D-CNN)
+
+# Layer 3 meta-learner, scaling, metrics, cross-validation
+scikit-learn>=1.3.0     # paper reports 1.3.0
+
+# Figures (Figs. 1, 2, 4, 5)
+matplotlib>=3.7
+seaborn>=0.12
+
+# Model serialisation
+joblib>=1.3
+
+# Notebook execution
+ipython>=8.0
+notebook>=7.0
