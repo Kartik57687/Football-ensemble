@@ -72,7 +72,7 @@ standalone performance.
 ---
 
 ## Gap 2 — Potential meta-learner training leakage (investigated, not confirmed)
-![OOF vs Current Meta-Learner Accuracy](outputs/figures/oof_vs_current_meta_learner_accuracy.png)
+![OOF vs Current Meta-Learner Accuracy](Football-prediction/football-ensemble-reproduction/outputs/figures/oof_vs_current_meta_learner_accuracy.png)
 **What the paper does:** Algorithm 1 trains the meta-learner on **in-sample**
 base-model predictions — base models are trained on the full training set `D`,
 then generate probabilities for that same `D`, which become the meta-learner's
