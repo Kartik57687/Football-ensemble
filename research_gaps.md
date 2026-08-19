@@ -26,7 +26,8 @@ whether the CNN generalises or memorises.
 and logged training/validation loss and accuracy at every epoch.
 
 **Training vs. validation loss**
-![CNN Training vs Validation Loss](outputs/figures/cnn_training_validation_loss.png)
+![CNN Training vs Validation Loss](Football-prediction/football-ensemble-reproduction/outputs/figures/cnn_training_validation_loss.png)
+
 - Training loss decreases continuously and smoothly from ≈1.10 (epoch 1) to
   ≈0.69 (epoch 30) — the model is consistently reducing its error on data it
   has seen.
@@ -35,7 +36,7 @@ and logged training/validation loss and accuracy at every epoch.
   10–15 onward, reaching ≈1.26 by epoch 30.
 
 **Training vs. validation accuracy**
-![CNN Training and Validation Accuracy](outputs/figures/cnn_training_validation_accuracy.png)
+![CNN Training and Validation Accuracy](Football-prediction/football-ensemble-reproduction/outputs/figures/cnn_training_validation_accuracy.png)
 - Training accuracy rises steadily from ≈37% (epoch 1) to **69.4%** (epoch 30).
 - Validation accuracy rises to a peak of **≈44.5% at epoch 15**, then
   generally *declines*, ending at **≈38.3%** by epoch 30 — barely above where
